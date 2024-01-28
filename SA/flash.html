@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flash cards</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+ <link
+ href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" 
+ rel="stylesheet"
+ />
+ ,<link rel="stylesheet" href="flash.css">
+</head>
+<body>
+    <div class="container">
+        <div class="addflashcardcon">
+            <button id="addflashcard">Add Flash Card</button>
+        </div>
+        
+        <div class="cardcon">
+            <div class="cardlistcontainer"></div>
+        </div>
+    </div>
+    <div class="questioncontainer hide" 
+    id="addquestioncard">
+    <h2>Add Flashcard</h2>
+    <div class="wrapper">
+        <div class="errorcon">
+            <span class="hide" id="error">Input field cannot be empty!</span>
+        </div>
+     
+        <i class="fa-solid fa-xmark" 
+        id="closebtn"></i>
+
+    </div>
+
+    <label for="question">Question:</label>
+    <textarea
+    class="input"
+    id="question"
+    placeholder="Type the question here...."
+    rows="2"
+    ></textarea>
+    <label for="answer">Answer:</label>
+    <textarea
+    class="input"
+    id="answer"
+    rows="4"
+    placeholder="type the answer here..."
+    ></textarea>
+    <button id="savebtn">Save</button>
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes</title>
+    <link rel="stylesheet" href="notes.css">
+</head>
+<body>
+    
+    <div class="ncontainer">
+        <h1><img src="image/notes.png" style="height: 50px;">Notes
+        </h1>
+        <button class="btn"><img src="image/edit.png" style="height: 50dpx;" >Create Note</button>
+        
+
+        <script>
+            function redirectToAnotherPage() {
+                // Replace 'second-page.html' with the actual filename of your second HTML page
+                window.location.href = 'home.html';
+            }
+        </script>
+        <div class="notescontainer">
+           <p contenteditable="true" class="inputbox">
+               <img src="image/trash.png">
+               </p> 
+        </div>
+        <button onclick="redirectToAnotherPage()"><img src="image/home.png" style="height: 50dpx;" >Back to Home</button>
+    </div>
+    <script src="nscript.js"></script>
+
+    
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body class="signupbody">
+    <h2 class="font-weight-bold">Register Yourself</h2>
+                    <form action="regform.php" method="POST">
+                        <br>   
+                        <br><br>   
+                        <br> User Name :<input type="text" name="username" placeholder="Write your Full name..">
+                        <br>
+                        <br>
+                        <fieldset>
+                            Date of Birth: <input type="date" name="date"/>
+                        </fieldset> 
+                        
+            
+                        <br>Educational Qualification:<select name="Education" >
+                            <option value="Marticulation">Marticulation</option>
+                            <option value="Intermediate">Intermediate</option>
+                            <option value="Graduation">Graduation</option>
+                            <option value="Post Graduation">Post Graduation</option>
+                            <option value="Other">Other</option>
+                            
+                            
+                        </select>
+                        <br>
+                        <br> E Mail :<input type="text" name="email" placeholder="Write your email..">
+                       
+                        <br>
+                        <br> Mobile Number :<input type="int" name="mob" placeholder="Enter mobile number">
+                        <br>
+                        <br>  Gender :<select name="gender" >
+                            <option value="male">male</option>
+                            <option value="Female">Female</option>
+                            <option value="Other" >Other</option>
+                        </select>
+                        <br>
+                        <br>
+                        Set Password :<input type =password name="pass" placeholder="Set Password"> 
+                        <br>
+                        <br> <br>
+                        <br> 
+                       
+                        <button class="ptn ptn primary" type="Submit" name="submit" class="ptn ptn primary">Submit</button>
+                        
+                        
+                           </form> <script>
+                            function redirectToAnotherPage() {
+                                // Replace 'second-page.html' with the actual filename of your second HTML page
+                                window.location.href = 'home.html';
+                            }
+                        </script>
+                        <div class="notescontainer">
+                           <!-- <p contenteditable="true" class="inputbox">
+                               <img src="image/trash.png">
+                               </p> -->
+                        </div>
+                        <button onclick="redirectToAnotherPage()"><img src="image/home.png" style="height: 50px; font-size: 20%;" >Back to Home</button>
+                    
+
+
+                    
+</body>
+</html>

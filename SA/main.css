@@ -1,0 +1,143 @@
+body {background-color: white ;
+
+}
+a{
+    cursor: pointer;
+}
+.h-main {width: 100%;
+    height: 60px;
+    background-color: #006DD9;
+    display: flex;
+    justify-content: space-between ;
+}
+.h-main-logo{
+    width: 100px;
+    height: 100%;
+    background-color: #2DC3FF;
+    display: flex;
+}
+.title {
+   
+    color: aliceblue;
+    font-size: 40px;
+}
+.logo {
+    height: 90%;
+}
+
+.h-main-nav{
+    width: 1000px;
+    height: 100%; 
+}
+.h-main-nav ul {
+    list-style: none;
+}
+   .h-main-nav ul li {
+    display: inline;
+    float: left;
+   }
+   .h-main-nav ul li a {
+    padding: 0 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 60px;
+   }
+
+
+.h-main-sm{
+     width: 150px;
+    height: 100%;
+    background-color: #160C28;
+}
+
+.h-main-sm li a {
+    color: aliceblue;
+    line-height: 60px; font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.imageContainer {
+    width:1560px; 
+    height:1193px; 
+    background-image: url("image/intro.jpg");
+}
+.intro {background-color: black;
+    color: #ddd;
+    
+}
+
+.container {
+    display: flex;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.img {
+    font-size: 50px;
+    color: #2DC3FF;
+}
+.box1 {
+    height: 500px;
+    width: 450;
+    flex: 1;
+    padding: 20px;
+   
+    text-align: center;
+    background-color: #006DD9;
+    width: 100px;
+}
+.box2 {
+    width: 1000px;
+    height: 500px;
+    flex: 1;
+    padding: 20px;
+    
+    text-align: center;
+    background-color: #3E442b;
+}
+.box3 {
+    width: 200px;
+    height: 500px;
+    flex: 1;
+    padding: 20px;
+    
+    text-align: center;
+    background-color: #2DC3FF;
+}
+
+
+.cont{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.section {
+   background-color: #160C28;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Optional: Add some styling to make it visually appealing */
+.section h2 {
+    color: white;
+    
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.section p {
+    color: #666;
+}
+.contact {
+    color: white;
+    font-size: 30px;
+    align-items: center;
+    padding-top: 80px;
+}
+.container col-12 m-5 {
+    background-color: #2DC3FF;
+}
+.alert alert-secondary {
+    background-color: #160C28;
+}
